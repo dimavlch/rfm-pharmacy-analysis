@@ -63,7 +63,7 @@
 На основе комбинаций R, F, M было выделено 6 сегментов.  
 Приоритет отдавался **сначала R, затем F, затем M**, так как свежесть важнее частоты, а частота важнее суммы.
 
-'''sql
+```sql
 CASE 
     WHEN r_score = 3 AND f_score = 3 AND m_score >= 2 THEN 'VIP'
     WHEN r_score >= 2 AND f_score = 3 AND m_score >= 2 THEN 'Лояльные'
@@ -72,7 +72,7 @@ CASE
     WHEN r_score = 1 AND f_score <= 2 AND m_score = 1 THEN 'Спящие'
     ELSE 'Массовые'
 END
-'''
+```
 
 ### 3.2. Характеристика сегментов
 
