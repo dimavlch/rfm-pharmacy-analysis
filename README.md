@@ -9,10 +9,10 @@
 ## Скриншоты дашборда
 
 ### Страница 1. Обзор сегментов
-![Обзор сегментов](dashboard/screenshots/page1_overview.png)
+![Обзор сегментов](screenshots/page1_overview.png)
 
 ### Страница 2. RFM-матрицы и детализация
-![RFM-матрицы](dashboard/screenshots/page2_heatmaps.png)
+![RFM-матрицы](screenshots/page2_matrix_and_table.png)
 
 ---
 ## Цель проекта
